@@ -28,6 +28,11 @@ then
   ${MY_DIR}/applications-designer.sh
 fi
 
+if ["${SETUP_TYPE}" == "database"]
+then
+  ${MY_DIR}/db.sh
+fi
+
 ${MY_DIR}/configurations.sh
 
 ${MY_DIR}/finished.sh
