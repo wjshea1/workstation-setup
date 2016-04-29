@@ -7,4 +7,5 @@ brew cask install android-studio
 brew install maven
 brew install gradle
 brew install nexus
+brew install tomcat
 
